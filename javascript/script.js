@@ -15,7 +15,7 @@ function validaCampos(){
     for(let x = 0; x < campos.length ; x++ ){
         if(campos[x].value != ''){
             alert('O cadastro foi realizado com sucesso!')
-            window.location.href = './index.html'
+            return
         }
     }
     
