@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <script src="./javascript/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form class="cadastro" action="contato.html" method="get" id="cadastroID" name="dados">
+        <fieldset>
+            <legend>CADASTRO</legend>
+            <div><input type="text" name="nmUser" id="nmUserID" placeholder="Digite seu nome"></div>
+            <div><input type="email" name="emailUser" id="emailUserID" placeholder="Digite seu email"></div>
+            <div><input type="text" name="cpfUser" id="cpfUserID" placeholder="Digite seu cpf" pattern="[0-9]{11}"></div>
+            <div><input type="text" name="generoUser" id="generoUserID" placeholder="Digite seu gênero"></div>
+            <div><input type="date" name="dataUser" id="dataUserID" placeholder="Digite sua data de nascimento"></div>
+            <div><input type="text" name="mensagem" id="mensagemID" placeholder="Qual a sua motivação para a viagem?"></div>
+            <div><input type="button" id="btnEnviar" value="Cadastrar"></div>
+        </fieldset>
+    </form>
+</body>
+</html>
